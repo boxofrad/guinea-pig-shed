@@ -12,7 +12,7 @@ D5 - Power (Red)
 #include <spark-dallas-temperature.h>
 
 #define SENSOR_RESOLUTION 10
-#define READING_INTERVAL 10000
+#define READING_INTERVAL 60000
 
 OneWire wire(D4);
 DallasTemperature sensors(&wire);
